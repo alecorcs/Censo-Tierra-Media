@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">TierraMedia_Pac</string>
+    <string name="titulo">El  censo de la Tierra media</string>
+    <string name="nuevoRegistro">Nuevo Registro</string>
+    <string name="verCenso">Ver Censo</string>
+    <string name="verProfesion">Ver Profesiones</string>
+    <string name="tituloVerCenso">Ver Censo</string>
+    <string name="elfos">ELFOS</string>
+    <string name="enanos">ENANOS</string>
+    <string name="hobbits">HOBBITS</string>
+    <string name="hombres">HOMBRES</string>
+    <string name="nombreRaza">Nombre Raza</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="edad">Edad</string>
+    <string name="ubicacion">Ubicación</string>
+    <string name="raza">Raza</string>
+    <string name="profesion">Profesión</string>
+    <string name="nombreProfesion">Nombre Profesión</string>
+    <string name="nuevoHabitante">Nuevo Habitante</string>
+    <string name="actualizarDatos">Actualizar Datos</string>
+    <string name="insertarCenso">Insertar en Censo</string>
+    <string name="eligeProfesion">Elige Profesión</string>
+    <string name="listarProfesion">Listar Profesión</string>
+    <string name="censo1">Ir al Censo</string>
+    <string name="numHab">0 habitantes</string>
+    <string name="habitantes">habitantes</string>
+    <string name="caballero">Caballero</string>
+    <string name="arquero">Arquero</string>
+    <string name="herrero">Herrero</string>
+    <string name="juglar">Juglar</string>
+    <string name="campesino">Campesino</string>
+    <string name="alquimista">Alquimista</string>
+    <string name="escriba">Escriba</string>
+    <string name="mercader">Mercader</string>
+    <string name="carpintero">Carpintero</string>
+    <string name="monje">Monje</string>
+    <string name="borrarHabitante">Borrar Habitante</string>
+    <string name="id">ID</string>
+    <string-array name="profesion">
+        <item>@string/caballero</item>
+        <item>@string/arquero</item>
+        <item>@string/herrero</item>
+        <item>@string/juglar</item>
+        <item>@string/campesino</item>
+        <item>@string/alquimista</item>
+        <item>@string/escriba</item>
+        <item>@string/mercader</item>
+        <item>@string/carpintero</item>
+        <item>@string/monje</item>
+    </string-array>
+</resources>

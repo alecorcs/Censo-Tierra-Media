@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleX="1.1"
+    tools:context="ui.NuevoRegistro">
+
+    <ImageView
+        android:id="@+id/imgFondo_Registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fondo_registro" />
+
+    <TextView
+        android:id="@+id/txtNuevoHabitante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="227dp"
+        android:text="@string/nuevoHabitante"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnInsertarEnCenso"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnActualizarDatos" />
+
+    <Button
+        android:id="@+id/btnActualizarDatos"
+        android:layout_width="171dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginBottom="200dp"
+        android:backgroundTint="#FFEB3B"
+        android:text="@string/actualizarDatos"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/txtNuevoHabitante"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnInsertarEnCenso"
+        android:layout_width="155dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="#FFEB3B"
+        android:text="@string/insertarCenso"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNuevoHabitante" />
+
+    <ImageButton
+        android:id="@+id/btnAtrasNuevoRegistro"
+        android:layout_width="57dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="376dp"
+        android:background="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/tbResumenHabitante"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+    <TableLayout
+        android:id="@+id/tbResumenHabitante"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/btnInsertarEnCenso"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imgFondo_Registro"
+        app:layout_constraintTop_toBottomOf="@+id/txtNuevoHabitante">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/txtnombre"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:padding="10sp"
+                android:text="@string/nombre"
+                android:textAlignment="textEnd"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/txtnombreCambio"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:padding="10sp"
+                android:text="@string/nombre"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:id="@+id/tbRowApellido">
+
+            <TextView
+                android:id="@+id/txtapellido"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:padding="10sp"
+                android:text="@string/apellidos"
+                android:textAlignment="textEnd"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/txtapellidoCambio"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:padding="10sp"
+                android:text="@string/apellidos"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:id="@+id/tbRowEdad">
+
+            <TextView
+                android:id="@+id/txtedad"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:padding="10sp"
+                android:text="@string/edad"
+                android:textAlignment="textEnd"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtedadCambio"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:padding="10sp"
+                android:text="@string/edad"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:id="@+id/tbRowRaza">
+
+            <TextView
+                android:id="@+id/txtraza"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:padding="10sp"
+                android:text="@string/raza"
+                android:textAlignment="textEnd"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtrazaCambio"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:padding="10sp"
+                android:text="@string/raza"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:id="@+id/tbRowUbicacion">
+
+            <TextView
+                android:id="@+id/txtubicacion"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:padding="10sp"
+                android:text="@string/ubicacion"
+                android:textAlignment="textEnd"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtubicacionCambio"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:padding="10sp"
+                android:text="@string/ubicacion"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:id="@+id/tbRowProfesion">
+
+            <TextView
+                android:id="@+id/txtprofesion"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:padding="10sp"
+                android:text="@string/profesion"
+                android:textAlignment="textEnd"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtprofesionCambio"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:padding="10sp"
+                android:text="@string/profesion"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

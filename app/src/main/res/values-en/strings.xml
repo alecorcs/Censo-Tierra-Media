@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MiddleEarth_Pac</string>
+    <string name="titulo">" The Census of Middle Earth"</string>
+    <string name="censo1">Go to the Census</string>
+    <string name="nuevoRegistro">New Registration</string>
+    <string name="verCenso">See Census</string>
+    <string name="verProfesion">See Professions</string>
+    <string name="tituloVerCenso">See Census</string>
+    <string name="elfos">ELVES</string>
+    <string name="enanos">DWARVES</string>
+    <string name="hobbits">HOBBITS</string>
+    <string name="hombres">MEN</string>
+    <string name="nombreRaza">Name Race</string>
+    <string name="nombre">Name</string>
+    <string name="apellidos">Surnames</string>
+    <string name="edad">Age</string>
+    <string name="ubicacion">Location</string>
+    <string name="raza">Race</string>
+    <string name="profesion">Profession</string>
+    <string name="nombreProfesion">Name Profession</string>
+    <string name="nuevoHabitante">New Inhabitant</string>
+    <string name="actualizarDatos">Update Data</string>
+    <string name="insertarCenso">Insert into Census</string>
+    <string name="eligeProfesion">Choose Profession</string>
+    <string name="listarProfesion">List Profession</string>
+    <string name="numHab">0 inhabitants</string>
+    <string name="habitantes">inhabitants</string>
+    <string name="caballero">Knight</string>
+    <string name="arquero">Archer</string>
+    <string name="herrero">Blacksmith</string>
+    <string name="juglar">Minstrel</string>
+    <string name="campesino">Farmer</string>
+    <string name="alquimista">Alchemist</string>
+    <string name="escriba">Scribe</string>
+    <string name="mercader">Merchant</string>
+    <string name="monje">Monk</string>
+    <string name="carpintero">Carpenter</string>
+    <string-array name="profesion">
+        <item>@string/caballero</item>
+        <item>@string/arquero</item>
+        <item>@string/herrero</item>
+        <item>@string/juglar</item>
+        <item>@string/campesino</item>
+        <item>@string/alquimista</item>
+        <item>@string/escriba</item>
+        <item>@string/mercader</item>
+        <item>@string/carpintero</item>
+        <item>@string/monje</item>
+    </string-array>
+    <string name="borrarHabitante">Delete Inhabitant</string>
+    <string name="id">ID</string>
+</resources>
